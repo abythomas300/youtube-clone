@@ -23,7 +23,7 @@ header {
     align-items: center;
     gap: 1rem;
     flex: 1;
-    gap: 0.5rem
+    gap: 1rem
     /* background-color: rgba(0, 0, 255, 0.505); */
 }
 
@@ -32,14 +32,15 @@ header {
     align-items: center;
     width: 1.25rem;
     height: 1.25rem;
+    gap: 1rem;
 }
 
 .header-center {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     flex: 1;
-    gap: 0.5rem
+    gap: 1rem
     /* background-color: rgba(111, 160, 100, 0.607); */
 }
 .header-right {
@@ -47,7 +48,7 @@ header {
     /* justify-content: space-between; */
     align-items: center;
     flex: 1;
-    gap: 0.5rem
+    gap: 1rem
     /* background-color: rgba(241, 18, 14, 0.484); */
 }
 .icon {
@@ -66,5 +67,9 @@ header {
     gap: 0.2rem;
     width: 5rem;
     height: 2rem;
+}
+.search-icon {  /* Watch out for specificity, style is ALREADY applied some code above*/
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
