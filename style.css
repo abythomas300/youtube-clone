@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(24,24,24);
+    background-color: rgb(15, 15, 15);
 }
 
 header {
@@ -14,31 +14,57 @@ header {
     justify-content: space-between;
     align-items: center;
     /* background-color: rgb(97, 93, 101); */
-    padding: 0.5rem;
+    padding: 1rem;
 }
+
 .header-left {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
+    gap: 1rem;
+    flex: 1;
+    gap: 0.5rem
     /* background-color: rgba(0, 0, 255, 0.505); */
 }
+
 .logo-search{
     display: flex;
+    align-items: center;
+    width: 1.25rem;
+    height: 1.25rem;
 }
+
 .header-center {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex: 1;
+    gap: 0.5rem
     /* background-color: rgba(111, 160, 100, 0.607); */
 }
 .header-right {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
+    flex: 1;
+    gap: 0.5rem
     /* background-color: rgba(241, 18, 14, 0.484); */
+}
+.icon {
+    width: 2rem;
+    height: 2rem;
 }
 .create-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    background-color: rgb(38, 38, 38);
+    outline: none;
+    gap: 0.2rem;
+    width: 5rem;
+    height: 2rem;
 }
+
