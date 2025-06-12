@@ -37,9 +37,8 @@ header {
 
 .header-center {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    flex: 1;
     gap: 1rem
     /* background-color: rgba(111, 160, 100, 0.607); */
 }
@@ -55,12 +54,19 @@ header {
     width: 2rem;
     height: 2rem;
 }
+.microphone-icon {
+    border-radius:1rem;
+    background-color: rgb(38, 38, 38);
+    margin-right: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+}
 .create-button {
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.9rem;
     color: white;
     background-color: rgb(38, 38, 38);
     outline: none;
