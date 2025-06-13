@@ -87,3 +87,27 @@ height: 1.25rem;
     height: 1.5rem;
 }
 
+
+
+/*CATEGORY BAR(RECOMMENDATION) NAVBAR*/
+.category-bar {
+    display: flex;
+    flex: 1;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    overflow-x: auto; /*Overflow content is can be scrolled and scroll bar is shown*/
+    scrollbar-width: none; /*To make default scroll bar invisible*/
+}
+
+.category-bar > div {  /*To select all div inside the category-bar div*/
+    display: flex;
+    flex-shrink: 0; 
+    align-items: center; /*To make text center vertically in each div*/
+    background-color: rgb(38, 38, 38);
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.75rem;
+    white-space: nowrap; /*To prevent text from getting into next line*/
+    cursor: pointer;
+}
+
