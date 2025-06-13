@@ -22,42 +22,47 @@ header {
     /* justify-content: space-around; */
     align-items: center;
     gap: 1rem;
-    flex: 1;
-    gap: 1rem
+    flex: 2;
+    gap: 0.5rem;
+    min-width: 0; /*To prevent overflow of elements outside the container*/
     /* background-color: rgba(0, 0, 255, 0.505); */
 }
 
 .logo-search{
     display: flex;
     align-items: center;
-    width: 1.25rem;
-    height: 1.25rem;
-    gap: 1rem;
 }
-
+.logo-search img {
+    height: 1rem;
+    width: auto;
+}
 .header-center {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem
+    flex: 1; /*To expand fill up vacant space and move to left*/
+    gap: 1rem;
+    min-width: 0; /*To prevent overflow of elements outside the container*/
     /* background-color: rgba(111, 160, 100, 0.607); */
 }
 .header-right {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    flex: 1;
-    gap: 1rem
+    flex: 3;  /*To expand 3 times faster*/
+    gap: 1rem;
+    min-width: 0; /*To prevent overflow of elements outside the container*/
+
     /* background-color: rgba(241, 18, 14, 0.484); */
 }
 .icon {
     width: 2rem;
     height: 2rem;
+    flex-shrink: 0; /*To prevent icon from shrinking when no space*/
 }
 .microphone-icon {
     border-radius:1rem;
     background-color: rgb(38, 38, 38);
-    margin-right: 0.2rem;
     width: 2rem;
     height: 2rem;
 }
@@ -65,6 +70,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
     border: none;
     border-radius: 0.9rem;
     color: white;
