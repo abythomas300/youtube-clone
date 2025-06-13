@@ -119,3 +119,13 @@ height: 1.25rem;
     cursor: pointer;
 }
 
+.video-feed {
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column; /*To make everything below one another*/
+    gap: 0.5rem;
+    color: #fff;
+}
+
+.thumbnail-container {
+    position: ;
