@@ -146,3 +146,53 @@ height: 1.25rem;
     padding: 0.1rem 0.3rem;
     border-radius: 0.2rem;
 }
+
+.video-information {
+    display: grid;
+    grid-template-columns:auto 1fr auto ;
+    grid-template-rows: auto auto auto;
+    column-gap: 0.75rem;
+    row-gap: 0.25rem;
+}
+.channel-image-container {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden; /*Prevents overflow */
+    flex-shrink: 0;
+}
+.channel-icon {
+    grid-row: 1 / span 3;
+    width: 2.5 rem;
+    height: 2.5 rem;
+    object-fit: cover; /*The image will fit based on size of the parent container*/
+    display: block;
+}
+.channel-name {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin: 0;
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+.video-title {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+.video-metadata {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin: 0;
+    grid-row: 3;
+    grid-column: 2 / 3;
+}
+.more-options {
+    grid-column: 3;
+    grid-row: 1;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
