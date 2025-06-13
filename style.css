@@ -122,27 +122,27 @@ height: 1.25rem;
 
 
 .video-feed {
-    margin: 1.5rem 1.5rem;
-    background-color: gray;
-    display: grid;
-    grid-template-columns:1fr;
-    grid-template-rows:3fr 1fr;
-    row-gap: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0.5rem;
+    gap: 0.5rem;
+    color: white;
+    margin: 1rem 1rem;
 }
 .thumbnail {
-    max-width: 100%;
-    height: min-content; /*To reduce the image height as much as possible*/
-    display: block; /*height: min-content only works on block elements*/
     position: relative; /*Relative to .duration*/
 }
+.thumbnail-image {
+    width: 100%;
+    border-radius: 0.5rem;
+}
 .duration {
-    color: white;
-    position: absolute; /* Respective to .thumbnail*/
+    position: absolute;
     bottom: 0.4rem;
     right: 0.4rem;
-    border-radius: 0.2rem;
-    background-color:rgba(29, 29, 29, 0.43);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
     font-size: 0.75rem;
     padding: 0.1rem 0.3rem;
-
+    border-radius: 0.2rem;
 }
