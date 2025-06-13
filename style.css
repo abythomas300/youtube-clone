@@ -45,7 +45,7 @@ height: 1.25rem;
 }
 .header-center {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     flex: 1; /*To expand fill up vacant space and move to left*/
     gap: 1rem;
@@ -56,10 +56,10 @@ height: 1.25rem;
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    flex: 3;  /*To expand 3 times faster*/
+    flex: 3;  /*To expand 2 times faster*/
     gap: 1rem;
     min-width: 0; /*To prevent overflow of elements outside the container*/
-
+    margin-left: 0.5rem; /*Space from mic icon*/
     /* background-color: rgba(241, 18, 14, 0.484); */
 }
 .icon {
@@ -70,7 +70,7 @@ height: 1.25rem;
 }
 .microphone-icon {
     border-radius:1rem;
-    background-color: rgb(38, 38, 38);
+    /* background-color: rgb(38, 38, 38); */
     width: 2rem;
     height: 2rem;
 }
