@@ -135,5 +135,14 @@ height: 1.25rem;
     display: block; /*height: min-content only works on block elements*/
     position: relative; /*Relative to .duration*/
 }
+.duration {
+    color: white;
+    position: absolute; /* Respective to .thumbnail*/
+    bottom: 0.4rem;
+    right: 0.4rem;
+    border-radius: 0.2rem;
+    background-color:rgba(29, 29, 29, 0.43);
+    font-size: 0.75rem;
+    padding: 0.1rem 0.3rem;
 
-
+}
