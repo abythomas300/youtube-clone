@@ -21,7 +21,6 @@ header {
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
-    gap: 1rem;
     flex: 2;
     gap: 0.5rem;
     min-width: 0; /*To prevent overflow of elements outside the container*/
@@ -32,9 +31,12 @@ header {
     display: flex;
     align-items: center;
 }
-.logo-search img {
-    height: 1rem;
-    width: auto;
+.logo-search img:first-child {  /*For the youtube logo only*/
+height: 1.25rem;
+}
+.logo-search .search-icon {      /*For the search icon only*/
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .header-center {
     display: flex;
