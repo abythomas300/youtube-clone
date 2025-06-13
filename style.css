@@ -104,7 +104,7 @@ height: 1.25rem;
     padding: 0.5rem 1rem;
     overflow-x: auto; /*Overflow content is can be scrolled and scroll bar is shown*/
     scrollbar-width: none; /*To make default scroll bar invisible*/
-    margin-right: 1rem;
+    margin-right: 2.1rem;
 }
 
 .category-bar > div {  /*To select all div inside the category-bar div*/
@@ -127,5 +127,3 @@ height: 1.25rem;
     color: #fff;
 }
 
-.thumbnail-container {
-    position: ;
