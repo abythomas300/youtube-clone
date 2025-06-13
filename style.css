@@ -119,11 +119,21 @@ height: 1.25rem;
     cursor: pointer;
 }
 
+
+
 .video-feed {
-    padding: 0.5rem 1rem;
-    display: flex;
-    flex-direction: column; /*To make everything below one another*/
-    gap: 0.5rem;
-    color: #fff;
+    margin: 1.5rem 1.5rem;
+    background-color: gray;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:3fr 1fr;
+    row-gap: 0.2rem;
 }
+.thumbnail {
+    max-width: 100%;
+    height: min-content; /*To reduce the image height as much as possible*/
+    display: block; /*height: min-content only works on block elements*/
+    position: relative; /*Relative to .duration*/
+}
+
 
