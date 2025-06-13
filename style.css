@@ -17,6 +17,7 @@ header {
     padding: 1rem;
 }
 
+
 .header-left {
     display: flex;
     /* justify-content: space-around; */
@@ -30,6 +31,7 @@ header {
 .logo-search{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .logo-search img:first-child {  /*For the youtube logo only*/
 height: 1.25rem;
@@ -37,6 +39,9 @@ height: 1.25rem;
 .logo-search .search-icon {      /*For the search icon only*/
     width: 1.5rem;
     height: 1.5rem;
+}
+.hamburger-menu {
+    cursor: pointer;
 }
 .header-center {
     display: flex;
@@ -61,6 +66,7 @@ height: 1.25rem;
     width: 2rem;
     height: 2rem;
     flex-shrink: 0; /*To prevent icon from shrinking when no space*/
+    cursor: pointer;
 }
 .microphone-icon {
     border-radius:1rem;
@@ -81,6 +87,7 @@ height: 1.25rem;
     gap: 0.2rem;
     width: 5rem;
     height: 2rem;
+    cursor: pointer;
 }
 .search-icon {  /* Watch out for specificity, style is ALREADY applied some code above*/
     width: 1.5rem;
