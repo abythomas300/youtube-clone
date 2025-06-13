@@ -169,11 +169,18 @@ height: 1.25rem;
     display: block;
 }
 .channel-name {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
     font-size: 0.8rem;
     color: #aaa;
     margin: 0;
     grid-column: 2 / 3;
     grid-row: 2;
+}
+.channel-verification-symbol {
+    width: 0.75rem;
+    height: 0.75rem;
 }
 .video-title {
     grid-column: 2 / 3;
