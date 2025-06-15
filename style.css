@@ -15,6 +15,8 @@ header {
     align-items: center;
     /* background-color: rgb(97, 93, 101); */
     padding: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 
@@ -104,7 +106,8 @@ height: 1.25rem;
     padding: 0.5rem 1rem;
     overflow-x: auto; /*Overflow content is can be scrolled and scroll bar is shown*/
     scrollbar-width: none; /*To make default scroll bar invisible*/
-    margin-right: 2.1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .category-bar > div {  /*To select all div inside the category-bar div*/
