@@ -56,7 +56,7 @@ height: 1.25rem;
 }
 .header-right {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     flex: 3;  /*To expand 2 times faster*/
     gap: 1rem;
